@@ -1,0 +1,159 @@
+
+html {
+    background-color: #202124;
+   }
+   body{
+     margin: 0%;
+   }
+   
+   nav {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+   }
+   .navList {
+     display: flex;
+     width: 8%;
+     list-style: none;
+   justify-content: space-between;
+   }
+   
+   .navListRight {
+     display: flex;
+     width: 20%;
+     list-style: none;
+     justify-content: space-between;
+     padding-right: 30px;
+   }
+   
+   .navLink {
+     color: #bdc1c6;
+       text-decoration: none;
+   
+     }
+   
+   .navLinkRight {
+     display: flex;
+     width: 35%;
+     color: #bdc1c6;
+     text-decoration: none;
+     justify-content: space-between;
+   }
+   
+   .navImg {
+     width: 1.5rem;
+     height: 1.5rem;
+   }
+   
+   .navImages {
+     display: flex;
+     position: relative;
+   }
+   
+   .signIn {
+     background-color: #8ab4f8;
+     border: none;
+     border-radius: 5px;
+     padding: 10px;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-left: 15px;
+   }
+   
+.signIn a{
+    text-decoration: none;
+    color: black;
+}
+
+
+   body {
+     min-height: 100vh;
+     min-width: 100vh;
+   }
+   
+   .googleLogo {
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 5%;
+   }
+   
+   footer{
+     display: flex;
+     width: 100%;
+     background-color: #171717;
+     position: fixed;
+     bottom: 0;
+     justify-content: space-between;
+   }
+   
+   .footerLinkLeft {
+     display: flex;
+     width: 25%;
+     list-style: none;
+     justify-content: space-between;
+   }
+   .footerLinkRight {
+     display: flex;
+     width: 15%;
+     list-style: none;
+     justify-content: space-between;
+     padding-right: 20px;
+   }
+   .footerText {
+     list-style: none;
+     color: #999da2;
+     text-decoration: none;
+   }
+   
+   .googleLogo{
+     display: grid;
+     place-items: center;
+     width: 17rem;
+     padding-top: 13.5rem;
+     padding-bottom: 30px;
+   }
+   
+   #search {
+     display: block;
+     border-radius: 60px;
+     border: 1px solid #5f6368;
+     background-color: #202124;
+     background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+    color: white;
+     margin-right: auto;
+     margin-left: auto;
+     width: 43%;
+     padding: 1rem;
+     
+   }
+   
+   .buttons {
+     width: 100%;
+     text-align: center;
+     padding-top: 40px;
+     
+   }
+   
+   .button1 {
+     background-color: #303134;
+     border: none;
+     border-radius: 5px;
+     color: #e8eaed;
+     height: 35px;
+     width: 12%;
+     font-size: 1rem;
+   }
+   .button2 {
+     background-color: #303134;
+     border-color: 1px solid #303134;
+     border: none;
+     border-radius: 5px;
+     color: #e8eaed;
+     height: 35px;
+     width: 12%;
+     font-size: 1rem;
+   }
